@@ -1,4 +1,7 @@
-
+@font-face {
+font-family: "fright";
+src: url("./assets/Fright Maiden Demo.ttf");
+}
 
 * {
   margin: 0;
@@ -45,6 +48,7 @@ p{
 }
 
 .rgb {
+  font-family: "fright", sans-serif;
   background-color: rgb(1, 17, 38);
   color: rgb(242, 242, 242);
   border: 5px rgb(64, 115, 68)solid ;
